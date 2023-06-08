@@ -46,7 +46,8 @@ This would perform the following modifications:
 ## Notes:
 
 - Stale SPM dependencies can be handled by removing all non required SPM packages from the Pods project
-- SPM package requirements can conflict
+- Multiple pod might depend on the same SPM package, in such case we'd need to merge requirements and handle potential conflicts
+
 
 
 
