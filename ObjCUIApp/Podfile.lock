@@ -1,0 +1,16 @@
+PODS:
+  - ObjCLib (0.1.0)
+
+DEPENDENCIES:
+  - ObjCLib (from `../ObjCLib`)
+
+EXTERNAL SOURCES:
+  ObjCLib:
+    :path: "../ObjCLib"
+
+SPEC CHECKSUMS:
+  ObjCLib: 661fada26f4b41323046945cc86f2bbd03e0c09d
+
+PODFILE CHECKSUM: 42b3196da857abefd6047d4eccc0846186f1519f
+
+COCOAPODS: 1.12.1
