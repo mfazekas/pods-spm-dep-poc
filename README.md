@@ -27,7 +27,7 @@ It does 3 things:
 
 1. Adds the `Package Dependency` to the `Pods` project:
       ![image](https://github.com/mfazekas/pods-spm-dep-poc/assets/52435/8cac68e5-3d2d-4add-a391-195a7768d350)
-2. Adds the `targets` dependencies to `Frameworks and Libraries` of the pod (SwiftLib) in this case:
+2. Adds the `targets` dependencies to `Frameworks and Libraries` of the pod (SwiftLib in this case):
       ![image](https://github.com/mfazekas/pods-spm-dep-poc/assets/52435/22ce481a-4e7b-4094-a959-186ec98ac765)
 3. Adds to Swift Import Paths:
       ![image](https://github.com/mfazekas/pods-spm-dep-poc/assets/52435/34f61d2e-6aae-4718-ae50-82cad9b83785).
