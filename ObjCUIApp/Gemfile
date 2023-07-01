@@ -1,0 +1,2 @@
+gem "cocoapods", github: 'mfazekas/CocoaPods', branch: 'podspec-spm'
+gem "cocoapods-core", github: 'mfazekas/Core', branch: 'podspec-spm'
