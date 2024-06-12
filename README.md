@@ -29,7 +29,7 @@ It does 3 things:
       ![image](https://github.com/mfazekas/pods-spm-dep-poc/assets/52435/8cac68e5-3d2d-4add-a391-195a7768d350)
 2. Adds the `targets` dependencies to `Frameworks and Libraries` of the pod (SwiftLib in this case):
       ![image](https://github.com/mfazekas/pods-spm-dep-poc/assets/52435/22ce481a-4e7b-4094-a959-186ec98ac765)
-3. Adds to Swift Import Paths:
+3. Adds to Swift Import Paths: <a id='swift-import-paths'></a>
       ![image](https://github.com/mfazekas/pods-spm-dep-poc/assets/52435/34f61d2e-6aae-4718-ae50-82cad9b83785).
       
       *Note*: this is only needed to work around for a bug in XCode project. If you add a swift package to the non main project, without modifying the `Swift Import Path` you'll get a `no such module "Atomics"` error. It was working fine for ObjC, but not for swift.
